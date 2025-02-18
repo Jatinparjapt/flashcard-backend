@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json()); // Middleware to parse JSON request body
 
 // Use CORS middleware
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(cors({ origin: "https://flashcar-frontend.vercel.app", credentials: true }));
 
 
 // Connect to MongoDB
